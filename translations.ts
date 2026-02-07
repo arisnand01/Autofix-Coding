@@ -1,0 +1,47 @@
+
+import { TranslationSchema } from './types';
+
+export const translations: Record<'id' | 'en', TranslationSchema> = {
+  id: {
+    tagline: 'Pemelihara Kode AI Otonom Anda',
+    description: 'AutoFix Coding adalah pemelihara cerdas yang memantau repositori, mendiagnosis bug, memperbaiki kode, dan mengajukan pull request secara otomatis.',
+    features: 'Fitur Utama',
+    dashboard: 'Dasbor Monitor',
+    repoHealth: 'Kesehatan Repositori',
+    recentActivity: 'Aktivitas Terbaru',
+    analyzeIssue: 'Analisis Masalah',
+    fixCode: 'Perbaikan Kode Otomatis',
+    pullRequests: 'Daftar Pull Request',
+    problemStatement: 'Pernyataan Masalah',
+    solution: 'Solusi Kami',
+    howItWorks: 'Cara Kerja',
+    architecture: 'Arsitektur Sistem',
+    loading: 'Sedang menganalisis...',
+    enterApiKey: 'Masukkan API Key Gemini',
+    placeholderCode: 'Tempelkan kode yang bermasalah di sini...',
+    placeholderIssue: 'Jelaskan masalah atau bug yang terjadi...',
+    runAnalysis: 'Jalankan Analisis AI',
+    risk: 'Tingkat Risiko',
+  },
+  en: {
+    tagline: 'Your Autonomous AI Code Maintainer',
+    description: 'AutoFix Coding is an intelligent maintainer that monitors repositories, diagnoses bugs, fixes code, and submits pull requests automatically.',
+    features: 'Key Features',
+    dashboard: 'Monitoring Dashboard',
+    repoHealth: 'Repository Health',
+    recentActivity: 'Recent Activity',
+    analyzeIssue: 'Analyze Issue',
+    fixCode: 'Auto Code Fix',
+    pullRequests: 'Pull Request History',
+    problemStatement: 'Problem Statement',
+    solution: 'Our Solution',
+    howItWorks: 'How It Works',
+    architecture: 'System Architecture',
+    loading: 'Analyzing...',
+    enterApiKey: 'Enter Gemini API Key',
+    placeholderCode: 'Paste the problematic code here...',
+    placeholderIssue: 'Describe the issue or bug...',
+    runAnalysis: 'Run AI Analysis',
+    risk: 'Risk Level',
+  }
+};

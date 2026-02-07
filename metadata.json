@@ -1,0 +1,8 @@
+{
+  "name": "AutoFix Coding",
+  "description": "An autonomous AI code maintainer that monitors repositories, diagnoses bugs, and submits automated pull requests using Gemini AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
